@@ -40,8 +40,6 @@ if __name__ == "__main__":
         print("Data written successfully.")
     else:
         print("Failed to write data.")
-    
-
 
     print("\n--- Reading ---")
     content = read_data(my_key)
