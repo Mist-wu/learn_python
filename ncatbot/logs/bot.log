@@ -1,0 +1,80 @@
+[2025-12-02 11:13:37,281.281] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 配置文件未找到
+[2025-12-02 11:13:37,281.281] ERROR    [MainThread|MainProcess] Config (logger.py:error:134) | 加载配置失败: [setting] 配置文件不存在！
+[2025-12-02 11:13:38,001.001] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 配置中未设置 QQ 号
+[2025-12-02 11:14:25,187.187] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-12-02 11:14:25,189.189] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2303188971 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6099 | [WEBUI_TOKEN]: NcatBot
+[2025-12-02 11:14:25,189.189] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 插件目录 plugins 不存在，将自动创建
+[2025-12-02 11:14:35,892.892] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 已生成强密码: O5*r*.LIaxE0huF7
+[2025-12-02 11:14:35,894.894] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 D:\库\Github\learn_python\ncatbot\config.yaml
+[2025-12-02 11:14:36,044.044] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-12-02 11:14:36,045.045] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 D:\库\Github\learn_python\ncatbot\plugins 导入插件
+[2025-12-02 11:14:36,045.045] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-12-02 11:14:36,046.046] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-12-02 11:14:40,075.075] WARNING  [Thread-4 (runner)|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:warning:139) | 测试 websocket 连接失败: [WinError 1225] 远程计算机拒绝网络连接。
+[2025-12-02 11:14:40,199.199] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.install (logger.py:info:129) | 未找到 napcat ，是否要自动安装？
+[2025-12-02 11:14:46,374.374] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.install (logger.py:info:129) | 正在获取版号信息... https://api.github.com/repos/NapNeko/NapCatQQ/tags
+[2025-12-02 11:14:49,791.791] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.install (logger.py:info:129) | 下载链接为 https://ghfast.top/https://github.com/NapNeko/NapCatQQ/releases/download/v4.9.80/NapCat.Shell.zip...
+[2025-12-02 11:14:49,793.793] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.install (logger.py:info:129) | 正在下载 napcat 客户端, 请稍等...
+[2025-12-02 11:14:55,570.570] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.utils (logger.py:info:129) | 解压 napcat.zip 成功
+[2025-12-02 11:14:55,591.591] WARNING  [MainThread|MainProcess] ncatbot.core.adapter.nc.config (logger.py:warning:139) | 第一次运行 WebUI, 将创建 WebUI 配置文件
+[2025-12-02 11:14:55,592.592] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | 当前操作系统为: Windows 11
+[2025-12-02 11:14:55,592.592] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | 正在启动QQ, 启动器路径: D:\库\Github\learn_python\ncatbot\napcat\launcher.bat
+[2025-12-02 11:14:59,610.610] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 登录中...
+[2025-12-02 11:15:05,898.898] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:info:129) | 快速登录列表: []
+[2025-12-02 11:15:08,112.112] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:info:129) | 二维码对应的 QQ 号: 2303188971
+[2025-12-02 11:15:28,218.218] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:info:129) | 登录成功
+[2025-12-02 11:15:32,239.239] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 连接 napcat websocket 服务器成功!
+[2025-12-02 11:15:32,240.240] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 连接成功
+[2025-12-02 11:15:32,242.242] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-12-02 11:15:32,242.242] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2303188971 启动成功
+[2025-12-02 11:15:50,456.456] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-12-02 11:16:32,509.509] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭, 正在尝试重新连接...
+[2025-12-02 11:16:50,056.056] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-12-02 11:16:50,057.057] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-12-02 11:16:50,060.060] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-12-02 11:17:16,267.267] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-12-02 11:17:16,267.267] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2303188971 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6099 | [WEBUI_TOKEN]: O5*r*.LIaxE0huF7
+[2025-12-02 11:17:16,268.268] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 D:\库\Github\learn_python\ncatbot\config.yaml
+[2025-12-02 11:17:16,361.361] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-12-02 11:17:16,362.362] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 D:\库\Github\learn_python\ncatbot\plugins 导入插件
+[2025-12-02 11:17:16,362.362] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-12-02 11:17:16,363.363] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-12-02 11:17:20,384.384] WARNING  [Thread-4 (runner)|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:warning:139) | 测试 websocket 连接失败: [WinError 1225] 远程计算机拒绝网络连接。
+[2025-12-02 11:17:20,483.483] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | 当前操作系统为: Windows 11
+[2025-12-02 11:17:20,483.483] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | 正在启动QQ, 启动器路径: D:\库\Github\learn_python\ncatbot\napcat\launcher.bat
+[2025-12-02 11:17:24,501.501] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 登录中...
+[2025-12-02 11:17:32,608.608] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:info:129) | 快速登录列表: ['2303188971']
+[2025-12-02 11:17:32,609.609] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:info:129) | 正在发送快速登录请求...
+[2025-12-02 11:17:34,615.615] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:info:129) | 快速登录成功
+[2025-12-02 11:17:38,635.635] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 连接 napcat websocket 服务器成功!
+[2025-12-02 11:17:38,636.636] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 连接成功
+[2025-12-02 11:17:38,639.639] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-12-02 11:17:38,639.639] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2303188971 启动成功
+[2025-12-02 11:17:47,816.816] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-12-02 11:18:24,901.901] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-12-02 11:18:24,903.903] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-12-02 11:18:24,904.904] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-12-02 11:18:24,905.905] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-12-02 11:21:16,294.294] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-12-02 11:21:16,295.295] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2303188971 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6099 | [WEBUI_TOKEN]: O5*r*.LIaxE0huF7
+[2025-12-02 11:21:16,298.298] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 D:\库\Github\learn_python\ncatbot\config.yaml
+[2025-12-02 11:21:16,388.388] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-12-02 11:21:16,388.388] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 D:\库\Github\learn_python\ncatbot\plugins 导入插件
+[2025-12-02 11:21:16,389.389] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-12-02 11:21:16,389.389] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-12-02 11:21:20,418.418] WARNING  [Thread-4 (runner)|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:warning:139) | 测试 websocket 连接失败: [WinError 1225] 远程计算机拒绝网络连接。
+[2025-12-02 11:21:20,546.546] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | 当前操作系统为: Windows 11
+[2025-12-02 11:21:20,546.546] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | 正在启动QQ, 启动器路径: D:\库\Github\learn_python\ncatbot\napcat\launcher.bat
+[2025-12-02 11:21:24,570.570] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 登录中...
+[2025-12-02 11:21:32,688.688] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:info:129) | 快速登录列表: ['2303188971']
+[2025-12-02 11:21:32,688.688] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:info:129) | 正在发送快速登录请求...
+[2025-12-02 11:21:34,694.694] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:info:129) | 快速登录成功
+[2025-12-02 11:21:38,719.719] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 连接 napcat websocket 服务器成功!
+[2025-12-02 11:21:38,719.719] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 连接成功
+[2025-12-02 11:21:38,723.723] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-12-02 11:21:38,723.723] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2303188971 启动成功
+[2025-12-02 11:22:34,695.695] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-12-02 11:39:29,262.262] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-12-02 11:39:29,264.264] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-12-02 11:39:29,264.264] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-12-02 11:39:29,269.269] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
