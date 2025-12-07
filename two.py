@@ -1,14 +1,10 @@
-class Animal:
-    def __init__(self,name):
-        self.name = name
-    
-    def sleep(self):
-        print(f"{self.name} is sleeping.")
+def mou_generater(x):
+    a = 1
+    while True:
+        yield a*x
+        a += 1
 
-class Dog(Animal):
-    def bark(self):
-        print(f"{self.name} says Woof!")
 
-dog = Dog("Snoopy")
-dog.bark()
-dog.sleep()
+mou = mou_generater(2)
+
+
