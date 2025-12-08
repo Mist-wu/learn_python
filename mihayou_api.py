@@ -1,13 +1,16 @@
 import json
 import os
 import httpx
+import dotenv
+
+dotenv.load_dotenv()
 
 CHAT_API_URL = "https://anuneko.com/api/v1/chat"
 STREAM_API_URL = "https://anuneko.com/api/v1/msg/{uuid}/stream"
 SELECT_CHOICE_URL = "https://anuneko.com/api/v1/msg/select-choice"
 SELECT_MODEL_URL = "https://anuneko.com/api/v1/user/select_model"
 
-DEFAULT_TOKEN = "CAEaJGQ3ZGY4ZDMyLTc3MTMtNDc5Yy1hY2JjLWI5MGY3NTkxMGE3YyDI8dTJBijs5NemBTDNgcCQ-vizgAw6BG5la28.yDg1aQAAAAAAAg.MEYCIQDTcW2U_ZDP2lxZCAQiPdn-5N0WEKEbWr0_YE_MGebLlwIhALNjT-9o3QjLs2nIZ9lBmkewG9jeLPxwsybswuD5h4aB"
+DEFAULT_TOKEN = os.environ.get("MIHAYOU_TOKEN")
 
 user_session = None
 user_model = "Orange Cat"
@@ -136,7 +139,7 @@ async def main():
     while True:
         cmd = input("> ").strip()
         if cmd == "/exit":
-            print("退出。")
+            print("已退出。")
             break
         elif cmd == "/new":
             cid = await create_new_session()
