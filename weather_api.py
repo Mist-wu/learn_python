@@ -5,7 +5,7 @@ import requests
 dotenv.load_dotenv()
 
 # 定义API密钥
-API_KEY = os.environ.get("WER_API_KEY")
+API_KEY = os.environ.get("WEATHER_API_KEY")
  
 # 设置url
 url = f'https://api2.wer.plus/api/weather?key={API_KEY}'
